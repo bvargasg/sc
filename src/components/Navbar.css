@@ -1,0 +1,12 @@
+.ant-layout-sider, .ant-menu.ant-menu-dark{
+    background-color: #002EFF !important;
+    background:  #002EFF !important;
+    width: 230px !important;
+    max-width: 230px !important;
+}
+.ant-menu-dark .ant-menu-inline.ant-menu-sub{
+    background:  #002EFF !important;
+}
+.ant-menu{
+    font-size: 15px;
+}

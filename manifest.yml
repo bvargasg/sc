@@ -1,0 +1,13 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: smartcenter
+  buildpack: nodejs_buildpack
+  command: npm start
+  disk_quota: 1G
+  memory: 2G
+  domain: mybluemix.net
+  host: smartcenter-master
+  env:
+    OPTIMIZE_MEMORY: true
